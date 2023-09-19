@@ -59,6 +59,12 @@ const angularFeatures = [
 	'Learning Curve: Angular has a steeper learning curve due to its comprehensive nature and the need to learn TypeScript, which is its primary language.',
 ];
 
+document.addEventListener('DOMContentLoaded', () => {
+	setActiveTab(reactTab);
+	setInActiveTabs([vueTab, angularTab]);
+	setContentForActiveTab(reactFeatures);
+});
+
 reactTab.addEventListener('click', (e) => {
 	setActiveTab(reactTab);
 	setInActiveTabs([vueTab, angularTab]);
