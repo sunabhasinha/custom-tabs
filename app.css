@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, sans-serif; /* Set a default font-family */
+	margin: 0; /* Remove default margin */
+	background-color: #f0f0f0; /* Set a background color */
+	color: #333; /* Set the default text color */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tabs {
+	display: flex;
+	border-bottom: 1px solid red;
+	/* width: 100%; */
+	padding: 10px;
+}
+
+.tab {
+	margin: 0 10px;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.clicked {
+	background-color: lightcoral;
+	color: #f0f0f0;
+}
+
+.tab-content {
+	width: 100%;
+	background-color: antiquewhite;
+	padding: 10px 40px;
+	height: 650px;
+}
+
+main {
+	width: 500px;
+}
+
+li {
+	padding: 8px 0;
+}
